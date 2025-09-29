@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NewGitProject/static/css/main.eef0c680.css",
+    "main.js": "/NewGitProject/static/js/main.bc893329.js",
+    "index.html": "/NewGitProject/index.html",
+    "main.eef0c680.css.map": "/NewGitProject/static/css/main.eef0c680.css.map",
+    "main.bc893329.js.map": "/NewGitProject/static/js/main.bc893329.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eef0c680.css",
+    "static/js/main.bc893329.js"
+  ]
+}
