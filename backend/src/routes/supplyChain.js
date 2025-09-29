@@ -48,7 +48,7 @@ router.post('/farmer/crop', requireAuth(['farmer']), upload.single('image'), asy
   }
 });
 
-import ProcessEvent from '../models/ProcessEvent.js';
+// import ProcessEvent from '../models/ProcessEvent.js';
 
 // Processor logs process step
 router.post('/processor/process', requireAuth(['processor']), upload.single('image'), async (req, res) => {
@@ -90,7 +90,7 @@ router.get('/processor/events', requireAuth(['processor']), async (req, res) => 
 });
 
 
-import LabEvent from '../models/LabEvent.js';
+// import LabEvent from '../models/LabEvent.js';
 
 // Lab logs test result
 router.post('/lab/test', requireAuth(['lab']), upload.single('report'), async (req, res) => {
